@@ -36,8 +36,8 @@
         <nav class="main-nav" aria-label="Ana menü">
           <a href="#program">Program</a>
           <a href="#dersler">Dersler</a>
-          <a href="#testler">Testler</a>
-          <a href="admin.html">Admin Paneli</a>
+          <a href="#hakkimizda">Hakkımızda</a>
+          <a href="#iletisim">İletişim</a>
           <button class="button button-small open-application" type="button">Başvuru Yap <span>→</span></button>
         </nav>
       </div>
@@ -54,7 +54,7 @@
             </p>
             <div class="hero-actions">
               <button class="button open-application" type="button">Başvuru Yap <span>→</span></button>
-              <a class="text-link" href="#testler">Seviye testini çöz <span>↓</span></a>
+              <a class="text-link" href="#program">Programı incele <span>↓</span></a>
             </div>
             <dl class="hero-highlights" aria-label="Program özellikleri">
               <div><dt>01</dt><dd>Kişisel<br />çalışma planı</dd></div>
@@ -173,29 +173,55 @@
         </div>
       </section>
 
-      <section class="section tests-section" id="testler">
-        <div class="container">
-          <div class="tests-header reveal">
-            <div>
-              <p class="eyebrow"><span></span> MİNİ SEVİYE TESTİ</p>
-              <h2>Nereden başlayacağını <em>birlikte</em> bulalım.</h2>
-            </div>
-            <p>Seviyene uygun dört soruluk testi çöz. Sonucun, ilk ders planını konuşurken bize yol gösterecek.</p>
+      <!-- Yeni Hakkımızda Bölümü -->
+      <section class="section about-section" id="hakkimizda">
+        <div class="container about-layout">
+          <div class="about-copy reveal">
+            <p class="eyebrow"><span></span> HAKKIMIZDA</p>
+            <h2>Matematiği korku olmaktan çıkarıp <em>başarıya</em> dönüştürüyoruz.</h2>
+            <p>Sancak Matematik olarak uzun yıllara dayanan tecrübemizle, LGS, TYT ve AYT sınavlarına hazırlanan öğrencilere birebir rehberlik ve matematik özel dersi sunuyoruz.</p>
+            <p>Ezberci formüller yerine matematiğin mantığını kavratarak, öğrencilerimizin kendi potansiyellerini keşfetmelerini ve hedeflerine güvenle ulaşmalarını sağlıyoruz.</p>
           </div>
-          <div class="test-launcher reveal" id="test-launcher">
-            <div class="test-icon" aria-hidden="true">√</div>
-            <div><h3>Hızlı seviye yoklaması</h3><p>Sınıf düzeyini seçerek uygun sorularla başlayabilirsin.</p></div>
-            <div class="test-options">
-              <label for="test-level">Sınıf düzeyi</label>
-              <select id="test-level">
-                <option value="5-6">5–6. sınıf</option>
-                <option value="7-8">7–8. sınıf (LGS)</option>
-                <option value="lise">Lise (TYT-AYT)</option>
-              </select>
+          <div class="about-features reveal">
+            <div class="feature-box">
+              <h3>Birebir İlgi</h3>
+              <p>Her öğrencinin öğrenme hızı ve stiline özel yaklaşım.</p>
             </div>
-            <button class="button" id="start-test" type="button">Testi Başlat <span>→</span></button>
+            <div class="feature-box">
+              <h3>Yeni Nesil Sorular</h3>
+              <p>Sınav sistemine tam uyumlu, analitik düşünme odaklı içerikler.</p>
+            </div>
           </div>
-          <div class="quiz-card hidden" id="quiz-card" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <!-- Yeni İletişim Bölümü -->
+      <section class="section contact-section" id="iletisim">
+        <div class="container contact-layout">
+          <div class="contact-copy reveal">
+            <p class="eyebrow"><span></span> İLETİŞİM</p>
+            <h2>Bizimle <em>iletişime</em> geçin.</h2>
+            <p>Sorularınız mı var ya da ders programımız hakkında detaylı bilgi almak mı istiyorsunuz? Hemen form doldurun veya bize ulaşın.</p>
+            <div class="contact-details">
+              <p><strong>E-posta:</strong> bilgi@sancakmatematik.com</p>
+              <p><strong>Telefon:</strong> 05XX XXX XX XX</p>
+              <p><strong>Konum:</strong> Bursa / Türkiye</p>
+            </div>
+          </div>
+          <div class="contact-form-box reveal">
+            <h3>Hızlı Bilgi Al</h3>
+            <form id="contact-quick-form" class="quick-form">
+              <div class="field-group">
+                <label for="q-name">Adınız Soyadınız</label>
+                <input type="text" id="q-name" required placeholder="Adınız Soyadınız" />
+              </div>
+              <div class="field-group">
+                <label for="q-phone">Telefon Numaranız</label>
+                <input type="tel" id="q-phone" required placeholder="05XX XXX XX XX" />
+              </div>
+              <button class="button" type="submit">Gönder <span>→</span></button>
+            </form>
+          </div>
         </div>
       </section>
 
