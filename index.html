@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birebir Matematik Özel Ders | LGS, TYT, AYT Matematik Koçluğu</title>
+    <meta name="description" content="LGS, TYT ve AYT sınavlarına hazırlıkta kişiye özel matematik dersi. Yeni nesil sorular, derece yaptıran taktikler ve birebir takip ile hedeflerinize ulaşın.">
+    <meta name="keywords" content="TYT Matematik Özel Ders, AYT Matematik, LGS Matematik, Birebir Matematik Dersi, Matematik Koçluğu">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Matematik<span>Akademisi</span></a>
+            <nav>
+                <ul>
+                    <li><a href="#anasayfa">Ana Sayfa</a></li>
+                    <li><a href="#kurslar">Programlar</a></li>
+                    <li><a href="#hakkimda">Hakkımda</a></li>
+                    <li><a href="#basvuru" class="btn-nav">Başvuru Yap</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="anasayfa" class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <img src="slider/slide1.jpg" alt="LGS Matematik Özel Ders ve Yeni Nesil Sorular">
+                <div class="slide-content">
+                    <h1>LGS Matematik'te %100 Başarı</h1>
+                    <p>Yeni nesil mantık muhakeme sorularıyla mantığı kavrayın, hedeflerinize ulaşın.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="slider/slide2.jpg" alt="TYT AYT Matematik Özel Ders Hazırlık">
+                <div class="slide-content">
+                    <h1>TYT & AYT Matematik Koçluğu</h1>
+                    <p>YKS Maratonunda derece yaptıran teknikler ve kişiye özel çalışma programı.</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="slider/slide3.jpg" alt="Birebir Özel Ders ve Soru Çözümü">
+                <div class="slide-content">
+                    <h1>Birebir Ve İnteraktif Öğrenme</h1>
+                    <p>Eksiklerinizi nokta atışı analiz ediyor, temelinizi güçlendiriyoruz.</p>
+                </div>
+            </div>
+        </div>
+        <button class="prev-btn" aria-label="Önceki Görsel">&#10094;</button>
+        <button class="next-btn" aria-label="Sonraki Görsel">&#10095;</button>
+    </section>
+
+    <main class="container">
+        <section id="kurslar" class="section">
+            <h2 class="section-title">Özel Ders Programlarımız</h2>
+            <div class="card-grid">
+                <article class="card">
+                    <h3>LGS Matematik Özel Ders</h3>
+                    <p>8. Sınıf öğrencilerine özel, LGS formatına uygun yeni nesil soru çözümleri, sınav stresi yönetimi ve konu eksiklerinin hızla kapatılması.</p>
+                </article>
+                <article class="card">
+                    <h3>TYT Matematik Özel Ders</h3>
+                    <p>YKS’nin ilk adımı olan TYT'de hız ve pratiklik kazandıran özel metotlar. Temel kavramlardan problemlere tam hakimiyet.</p>
+                </article>
+                <article class="card">
+                    <h3>AYT Matematik Özel Ders</h3>
+                    <p>Hedefi yüksek olanlar için Fonksiyonlar, Türev, İntegral ve Trigonometri gibi kritik konularda derinlemesine akademik yaklaşım.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="basvuru" class="section form-section">
+            <div class="form-card">
+                <h2>Öcretsiz Ön Görüşme Ve Başvuru Formu</h2>
+                <p>Formu doldurun, öğrencinin seviyesini analiz etmek için sizi hemen arayalım.</p>
+                <form id="student-form">
+                    <div class="form-group">
+                        <label for="fullName">Ad Soyad</label>
+                        <input type="text" id="fullName" required placeholder="Öğrencinin Adı Soyadı">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon Numarası</label>
+                        <input type="tel" id="phone" required placeholder="05XX XXX XX XX">
+                    </div>
+                    <div class="form-group">
+                        <label for="grade">Sınıf / Sınav Grubu</label>
+                        <select id="grade" required>
+                            <option value="">Seçiniz</option>
+                            <option value="LGS (8. Sınıf)">LGS (8. Sınıf)</option>
+                            <option value="TYT-AYT (YKS)">TYT - AYT (YKS)</option>
+                            <option value="Ara Sınıf Takviye">Ara Sınıf Takviye (9, 10, 11. Sınıf)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="notes">Notlar / Mesajınız (Opsiyonel)</label>
+                        <textarea id="notes" rows="3" placeholder="Öğrencinin mevcut durumu veya sormak istedikleriniz..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">Başvuruyu Gönder</button>
+                    <p id="form-status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Matematik Özel Ders Akademisi. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+    <!-- Firebase SDK Modular / Compatible Imports -->
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
