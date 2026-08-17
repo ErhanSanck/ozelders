@@ -1,117 +1,277 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birebir Matematik Özel Ders | LGS, TYT, AYT Matematik Koçluğu</title>
-    <meta name="description" content="LGS, TYT ve AYT sınavlarına hazırlıkta kişiye özel matematik dersi. Yeni nesil sorular, derece yaptıran taktikler ve birebir takip ile hedeflerinize ulaşın.">
-    <meta name="keywords" content="TYT Matematik Özel Ders, AYT Matematik, LGS Matematik, Birebir Matematik Dersi, Matematik Koçluğu">
-    <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Matematik Atölyesi | TYT, AYT, LGS Matematik Özel Ders</title>
+    <meta
+      name="description"
+      content="LGS, TYT ve AYT sınavlarına hazırlıkta kişiye özel bire bir matematik özel ders programı. Yeni nesil sorular, derece taktikleri ve hedefe yönelik birebir takip."
+    />
+    <meta
+      name="keywords"
+      content="TYT Matematik Özel Ders, AYT Matematik, LGS Matematik Özel Ders, Birebir Matematik Dersi, LGS Hazırlık, YKS Matematik Koçluğu"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Ana içeriğe geç</a>
 
-    <header class="navbar">
-        <div class="container">
-            <a href="#" class="logo">Matematik<span>Akademisi</span></a>
-            <nav>
-                <ul>
-                    <li><a href="#anasayfa">Ana Sayfa</a></li>
-                    <li><a href="#kurslar">Programlar</a></li>
-                    <li><a href="#hakkimda">Hakkımda</a></li>
-                    <li><a href="#basvuru" class="btn-nav">Başvuru Yap</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="brand" href="#top" aria-label="Matematik Atölyesi ana sayfa">
+          <span class="brand-mark" aria-hidden="true">∑</span>
+          <span><strong>Matematik</strong><small>ATÖLYESİ</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="main-nav" aria-label="Ana menü">
+          <a href="#program">Program</a>
+          <a href="#dersler">Dersler</a>
+          <a href="#testler">Testler</a>
+          <a href="admin.html">Admin Paneli</a>
+          <button class="button button-small open-application" type="button">Başvuru Yap <span>→</span></button>
+        </nav>
+      </div>
     </header>
 
-    <section id="anasayfa" class="hero-slider">
-        <div class="slider-container">
-            <div class="slide active">
-                <img src="slider/slide1.jpg" alt="LGS Matematik Özel Ders ve Yeni Nesil Sorular">
-                <div class="slide-content">
-                    <h1>LGS Matematik'te %100 Başarı</h1>
-                    <p>Yeni nesil mantık muhakeme sorularıyla mantığı kavrayın, hedeflerinize ulaşın.</p>
-                </div>
+    <main id="main-content">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow"><span></span> ÖĞRENME YOLCULUĞUN BURADA BAŞLAR</p>
+            <h1>LGS, TYT ve AYT Matematiği <em>anlayarak</em> öğren.</h1>
+            <p class="hero-text">
+              Ortaokul (LGS) ve lise (TYT - AYT) seviyesinde, öğrencinin hedeflerine göre şekillenen bire bir matematik özel ders programı.
+            </p>
+            <div class="hero-actions">
+              <button class="button open-application" type="button">Başvuru Yap <span>→</span></button>
+              <a class="text-link" href="#testler">Seviye testini çöz <span>↓</span></a>
             </div>
-            <div class="slide">
-                <img src="slider/slide2.jpg" alt="TYT AYT Matematik Özel Ders Hazırlık">
-                <div class="slide-content">
-                    <h1>TYT & AYT Matematik Koçluğu</h1>
-                    <p>YKS Maratonunda derece yaptıran teknikler ve kişiye özel çalışma programı.</p>
-                </div>
+            <dl class="hero-highlights" aria-label="Program özellikleri">
+              <div><dt>01</dt><dd>Kişisel<br />çalışma planı</dd></div>
+              <div><dt>02</dt><dd>Düzenli<br />geri bildirim</dd></div>
+              <div><dt>03</dt><dd>Hedef odaklı<br />takip</dd></div>
+            </dl>
+          </div>
+          <div class="hero-visual reveal">
+            <div class="formula formula-top">a² + b² = c²</div>
+            <div class="hero-card">
+              <p>Her problem, yeni bir<br /><strong>bakış açısıdır.</strong></p>
+              <div class="graph-paper" aria-hidden="true">
+                <svg viewBox="0 0 260 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22 128C56 115 74 72 104 74C136 76 145 120 179 82C196 63 210 39 240 24" stroke="currentColor" stroke-width="4" stroke-linecap="round" />
+                  <circle cx="104" cy="74" r="6" fill="currentColor" />
+                  <circle cx="179" cy="82" r="6" fill="currentColor" />
+                  <path d="M15 142H248M15 142V14" stroke="currentColor" stroke-width="2" />
+                </svg>
+              </div>
+              <span class="hero-stamp">M</span>
             </div>
-            <div class="slide">
-                <img src="slider/slide3.jpg" alt="Birebir Özel Ders ve Soru Çözümü">
-                <div class="slide-content">
-                    <h1>Birebir Ve İnteraktif Öğrenme</h1>
-                    <p>Eksiklerinizi nokta atışı analiz ediyor, temelinizi güçlendiriyoruz.</p>
-                </div>
-            </div>
+            <div class="formula formula-bottom">f(x) = x³ − 3x + 2</div>
+            <div class="mini-note">x + 7 = 12<br /><b>x = 5</b></div>
+          </div>
         </div>
-        <button class="prev-btn" aria-label="Önceki Görsel">&#10094;</button>
-        <button class="next-btn" aria-label="Sonraki Görsel">&#10095;</button>
-    </section>
+      </section>
 
-    <main class="container">
-        <section id="kurslar" class="section">
-            <h2 class="section-title">Özel Ders Programlarımız</h2>
-            <div class="card-grid">
-                <article class="card">
-                    <h3>LGS Matematik Özel Ders</h3>
-                    <p>8. Sınıf öğrencilerine özel, LGS formatına uygun yeni nesil soru çözümleri, sınav stresi yönetimi ve konu eksiklerinin hızla kapatılması.</p>
-                </article>
-                <article class="card">
-                    <h3>TYT Matematik Özel Ders</h3>
-                    <p>YKS’nin ilk adımı olan TYT'de hız ve pratiklik kazandıran özel metotlar. Temel kavramlardan problemlere tam hakimiyet.</p>
-                </article>
-                <article class="card">
-                    <h3>AYT Matematik Özel Ders</h3>
-                    <p>Hedefi yüksek olanlar için Fonksiyonlar, Türev, İntegral ve Trigonometri gibi kritik konularda derinlemesine akademik yaklaşım.</p>
-                </article>
-            </div>
-        </section>
+      <section class="intro-strip" aria-label="Program kısa özeti">
+        <div class="container strip-grid">
+          <p>Ezber değil, <strong>mantık.</strong><br />Baskı değil, <strong>ilerleme.</strong></p>
+          <p class="strip-detail">Her öğrencinin öğrenme biçimi farklıdır. LGS, TYT ve AYT ders akışını bu farkı gözeterek, ölçülebilir küçük hedeflerle kuruyoruz.</p>
+          <a class="circle-link" href="#program" aria-label="Programı incele">↓</a>
+        </div>
+      </section>
 
-        <section id="basvuru" class="section form-section">
-            <div class="form-card">
-                <h2>Öcretsiz Ön Görüşme Ve Başvuru Formu</h2>
-                <p>Formu doldurun, öğrencinin seviyesini analiz etmek için sizi hemen arayalım.</p>
-                <form id="student-form">
-                    <div class="form-group">
-                        <label for="fullName">Ad Soyad</label>
-                        <input type="text" id="fullName" required placeholder="Öğrencinin Adı Soyadı">
-                    </div>
-                    <div class="form-group">
-                        <label for="phone">Telefon Numarası</label>
-                        <input type="tel" id="phone" required placeholder="05XX XXX XX XX">
-                    </div>
-                    <div class="form-group">
-                        <label for="grade">Sınıf / Sınav Grubu</label>
-                        <select id="grade" required>
-                            <option value="">Seçiniz</option>
-                            <option value="LGS (8. Sınıf)">LGS (8. Sınıf)</option>
-                            <option value="TYT-AYT (YKS)">TYT - AYT (YKS)</option>
-                            <option value="Ara Sınıf Takviye">Ara Sınıf Takviye (9, 10, 11. Sınıf)</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="notes">Notlar / Mesajınız (Opsiyonel)</label>
-                        <textarea id="notes" rows="3" placeholder="Öğrencinin mevcut durumu veya sormak istedikleriniz..."></textarea>
-                    </div>
-                    <button type="submit" class="btn-submit">Başvuruyu Gönder</button>
-                    <p id="form-status"></p>
-                </form>
+      <section class="section program-section" id="program">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow"><span></span> NASIL ÇALIŞIYORUZ?</p>
+            <h2>Ders planı öğrencinin <em>ihtiyacından</em> doğar.</h2>
+          </div>
+          <div class="method-grid">
+            <article class="method-card reveal">
+              <span class="method-number">01</span>
+              <h3>Tanışma ve Analiz</h3>
+              <p>İlk görüşmede öğrencinin hedeflediği LGS veya TYT-AYT derece hedefini, konu bilgisini ve çalışma alışkanlıklarını analiz ederiz.</p>
+            </article>
+            <article class="method-card reveal">
+              <span class="method-number">02</span>
+              <h3>Sınav Odaklı Yol Haritası</h3>
+              <p>Konu sıralaması, yeni nesil soru çözümleri, tekrar zamanları ve soru hedefleri içeren özel bir plan hazırlarız.</p>
+            </article>
+            <article class="method-card reveal">
+              <span class="method-number">03</span>
+              <h3>Takip ve Gelişim</h3>
+              <p>Her dersin ardından veli bilgilendirmesi ve gelişim takibi ile süreci görünür tutar, eksikleri nokta atışı kapatırız.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slider Kaldırıldı, Yerine Bento-Grid Galeri Eklendi -->
+      <section class="gallery-section" id="dersler">
+        <div class="container gallery-head reveal">
+          <div>
+            <p class="eyebrow eyebrow-light"><span></span> DERS DENEYİMİ VE ATÖLYE</p>
+            <h2>Konuyu gör, <em>mantığını kur.</em></h2>
+          </div>
+          <p class="gallery-desc">Atölyemizden kareler, bire bir soru çözümleri ve çalışma atmosferimiz.</p>
+        </div>
+
+        <div class="container">
+          <div class="bento-gallery reveal">
+            <article class="bento-item bento-large" data-img="slider/slide1.jpg" data-title="Temel Kazanımlar ve Tahta Çalışması">
+              <img src="slider/slide1.jpg" alt="LGS ve TYT Matematik Özel Ders Tahta Çalışması" />
+              <div class="bento-overlay">
+                <span class="bento-tag">01 / Odaklanma</span>
+                <h3>Konuyu parçalara ayır, adım adım ilerle.</h3>
+                <button class="view-btn" type="button">Görseli Büyüt ↗</button>
+              </div>
+            </article>
+
+            <article class="bento-item" data-img="slider/slide2.jpg" data-title="Bire Bir Rehberlik">
+              <img src="slider/slide2.jpg" alt="AYT Matematik Birebir Rehberlik" />
+              <div class="bento-overlay">
+                <span class="bento-tag">02 / Rehberlik</span>
+                <h3>Soruların, kendi hızında cevap bulsun.</h3>
+                <button class="view-btn" type="button">Görseli Büyüt ↗</button>
+              </div>
+            </article>
+
+            <article class="bento-item" data-img="slider/slide3.jpg" data-title="Yeni Nesil Problem Çözümü">
+              <img src="slider/slide3.jpg" alt="Yeni Nesil Matematik Problemleri" />
+              <div class="bento-overlay">
+                <span class="bento-tag">03 / Analiz</span>
+                <h3>Farklı yöntemlerle düşünme esnekliği kazan.</h3>
+                <button class="view-btn" type="button">Görseli Büyüt ↗</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section levels-section">
+        <div class="container levels-layout">
+          <div class="levels-copy reveal">
+            <p class="eyebrow"><span></span> KİMLER İÇİN?</p>
+            <h2>Her seviyede <em>sağlam</em> bir temel.</h2>
+            <p>Ders içeriği yalnızca sınıf düzeyine göre değil; öğrencinin LGS, TYT veya AYT hedefine göre dinamik olarak oluşturulur.</p>
+            <button class="button button-dark open-application" type="button">Programı konuşalım <span>→</span></button>
+          </div>
+          <div class="level-list reveal">
+            <article><span>LGS Hazırlık</span><p>5, 6, 7 ve 8. sınıf yeni nesil soru mantığı ve LGS sınav stratejileri.</p><i>01</i></article>
+            <article><span>TYT Matematik</span><p>9-10. sınıf konuları, hızlı soru çözme teknikleri ve temel oturtma.</p><i>02</i></article>
+            <article><span>AYT Matematik</span><p>11-12. sınıf ve Mezun grubu için Fonksiyon, Türev, İntegral ve Trigonometri odaklı derinlemesine hazırlık.</p><i>03</i></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section tests-section" id="testler">
+        <div class="container">
+          <div class="tests-header reveal">
+            <div>
+              <p class="eyebrow"><span></span> MİNİ SEVİYE TESTİ</p>
+              <h2>Nereden başlayacağını <em>birlikte</em> bulalım.</h2>
             </div>
-        </section>
+            <p>Seviyene uygun dört soruluk testi çöz. Sonucun, ilk ders planını konuşurken bize yol gösterecek.</p>
+          </div>
+          <div class="test-launcher reveal" id="test-launcher">
+            <div class="test-icon" aria-hidden="true">√</div>
+            <div><h3>Hızlı seviye yoklaması</h3><p>Sınıf düzeyini seçerek uygun sorularla başlayabilirsin.</p></div>
+            <div class="test-options">
+              <label for="test-level">Sınıf düzeyi</label>
+              <select id="test-level">
+                <option value="5-6">5–6. sınıf</option>
+                <option value="7-8">7–8. sınıf (LGS)</option>
+                <option value="lise">Lise (TYT-AYT)</option>
+              </select>
+            </div>
+            <button class="button" id="start-test" type="button">Testi Başlat <span>→</span></button>
+          </div>
+          <div class="quiz-card hidden" id="quiz-card" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="application-banner">
+        <div class="container banner-layout reveal">
+          <p class="eyebrow eyebrow-light"><span></span> İLK ADIM</p>
+          <h2>Matematikte yeni bir sayfa<br /><em>açmaya hazır mısın?</em></h2>
+          <button class="button button-light open-application" type="button">Başvuru Yap <span>→</span></button>
+        </div>
+      </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Matematik Özel Ders Akademisi. Tüm Hakları Saklıdır.</p>
+    <footer class="site-footer">
+      <div class="container footer-layout">
+        <a class="brand footer-brand" href="#top"><span class="brand-mark">∑</span><span><strong>Matematik</strong><small>ATÖLYESİ</small></span></a>
+        <p>LGS, TYT ve AYT Matematik Özel Ders Programı. Öğrenmenin keyfini, doğru sorularla keşfet.</p>
+        <a href="#top" class="back-top">Yukarı dön ↑</a>
+      </div>
     </footer>
 
-    <!-- Firebase SDK Modular / Compatible Imports -->
+    <!-- Başvuru Formu Modal -->
+    <div class="modal hidden" id="application-modal" role="dialog" aria-modal="true" aria-labelledby="application-title">
+      <div class="modal-backdrop" data-close-modal></div>
+      <div class="modal-content">
+        <button class="modal-close" type="button" aria-label="Formu kapat" data-close-modal>×</button>
+        <p class="eyebrow"><span></span> BAŞVURU FORMU</p>
+        <h2 id="application-title">Birlikte başlayalım.</h2>
+        <p class="modal-description">Bilgilerini bırak; LGS, TYT veya AYT ders hedefini konuşmak için sana dönüş yapalım.</p>
+        <form id="application-form" novalidate>
+          <div class="field-group">
+            <label for="full-name">Öğrenci adı soyadı</label>
+            <input id="full-name" name="fullName" type="text" autocomplete="name" placeholder="Adınız ve soyadınız" required />
+            <p class="field-error" data-error-for="fullName"></p>
+          </div>
+          <div class="field-group">
+            <label for="parent-phone">Veli telefon numarası</label>
+            <input id="parent-phone" name="parentPhone" type="tel" autocomplete="tel" inputmode="tel" placeholder="05XX XXX XX XX" required />
+            <p class="field-error" data-error-for="parentPhone"></p>
+          </div>
+          <div class="field-group">
+            <label for="grade-level">Sınıf düzeyi / Hedef Sınav</label>
+            <select id="grade-level" name="gradeLevel" required>
+              <option value="">Seçiniz</option>
+              <option value="LGS (8. Sınıf)">8. sınıf / LGS</option>
+              <option value="TYT-AYT (YKS)">Lise / TYT–AYT</option>
+              <option value="Ara Sınıf Takviye">5, 6, 7, 9, 10, 11. Sınıf Takviye</option>
+            </select>
+            <p class="field-error" data-error-for="gradeLevel"></p>
+          </div>
+          <label class="consent">
+            <input id="consent" type="checkbox" required />
+            <span>Verdiğim bilgilerin iletişim amacıyla kullanılmasını kabul ediyorum.</span>
+          </label>
+          <p class="field-error" data-error-for="consent"></p>
+          <button class="button form-submit" type="submit">Başvuruyu Gönder <span>→</span></button>
+          <p class="form-success hidden" id="application-success" role="status">Başvurun kaydedildi. En kısa sürede seninle iletişime geçeceğiz.</p>
+        </form>
+      </div>
+    </div>
+
+    <!-- Görsel Büyütme (Lightbox) Modalı -->
+    <div class="modal hidden" id="gallery-modal" role="dialog" aria-modal="true">
+      <div class="modal-backdrop" id="close-gallery-backdrop"></div>
+      <div class="modal-content gallery-modal-content">
+        <button class="modal-close" id="close-gallery-btn" type="button" aria-label="Kapat">×</button>
+        <img id="gallery-modal-img" src="" alt="Büyütülmüş Görsel" />
+        <h3 id="gallery-modal-title"></h3>
+      </div>
+    </div>
+
+    <div class="toast hidden" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- Firebase SDK Compat Kütüphaneleri -->
     <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/9.22.1/firebase-database-compat.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
