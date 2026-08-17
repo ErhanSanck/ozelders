@@ -34,7 +34,3 @@ Proje; dinamik başvuru yönetimi, interaktif seviye testi ve Bento-Grid yapıs�
 ├── admin.html          # Yönetici paneli (Gelen başvuruları görüntüleme ve filtreleme)
 ├── style.css           # Global stil dosyası (Renk paleti, Bento-Grid, Modal ve Medya sorguları)
 ├── script.js           # Uygulama mantığı (Firebase bağlantısı, Galeri Lightbox, Form & Admin)
-└── slider/             # Atölye ve ders görselleri
-    ├── slide1.jpg
-    ├── slide2.jpg
-    └── slide3.jpg
